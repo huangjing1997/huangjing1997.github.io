@@ -2,16 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://huangjing1997.github.io/2023/07/19/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://xyjblog.top/2023/07/19/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
     
-    <lastmod>2023-07-27</lastmod>
+    <lastmod>2023-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/archives/index.html</loc>
+    <loc>https://xyjblog.top/wallpaper/index.html</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/wallpaper/coolGames/index.html</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/wallpaper/cartoonAnime/index.html</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/wallpaper/beautifulScenery/index.html</loc>
+    
+    <lastmod>2023-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/wallpaper/speedAndPassion/index.html</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/archives/index.html</loc>
     
     <lastmod>2023-07-26</lastmod>
     
@@ -20,16 +65,7 @@
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/wallpaper/index.html</loc>
-    
-    <lastmod>2023-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huangjing1997.github.io/link/index.html</loc>
+    <loc>https://xyjblog.top/link/index.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -38,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/about/index.html</loc>
+    <loc>https://xyjblog.top/about/index.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -47,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/music/index.html</loc>
+    <loc>https://xyjblog.top/music/index.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -56,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/tags/index.html</loc>
+    <loc>https://xyjblog.top/tags/index.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -65,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://huangjing1997.github.io/categories/index.html</loc>
+    <loc>https://xyjblog.top/categories/index.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -75,16 +111,16 @@
   
 
   <url>
-    <loc>https://huangjing1997.github.io/</loc>
-    <lastmod>2023-07-27</lastmod>
+    <loc>https://xyjblog.top/</loc>
+    <lastmod>2023-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://huangjing1997.github.io/tags/Hexo/</loc>
-    <lastmod>2023-07-27</lastmod>
+    <loc>https://xyjblog.top/tags/Hexo/</loc>
+    <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -92,8 +128,8 @@
 
   
   <url>
-    <loc>https://huangjing1997.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-07-27</lastmod>
+    <loc>https://xyjblog.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
