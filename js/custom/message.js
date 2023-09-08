@@ -24,7 +24,7 @@ function danmu() {
 		const query = new AV.Query('Comment');
 		query.equalTo('url', GetUrlRelativePath());
 		query.find().then((comments) => {
-			console.log(comments)
+			//console.log(comments)
 			comments.forEach(i => {
 				if(i.avatar == undefined){
 					if(setAvatar(i.attributes.mail) == null){
