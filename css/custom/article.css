@@ -1,28 +1,3 @@
-/*=========================== 一图流 =============================*/
-/* 页脚与头图透明 */
-/*#footer {
-  background: rgba(0,0,0,0.5) !important;
-}
-#page-header {
-  background: rgba(0,0,0,0.3) !important;
-}*/
-
-/* 白天模式遮罩透明 */
-/*#footer::before {
-  background: transparent !important;
-}
-#page-header::before {
-  background: transparent !important;
-}*/
-
-/* 夜间模式遮罩透明 */
-/*[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}*/
-
 
 /*====================== 文章页H1-H6图标样式效果 =======================*/
 /* 控制风车转动速度 4s那里可以自己调节快慢 */
@@ -113,17 +88,10 @@ h6::before {
   animation: ccc 6s linear infinite;
 }
 
-/*========================== 评论美化 =========================*/
-#veditor {
-    background-image: url(../img/dog.gif);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: rgba(255, 255, 255, 0);
-    resize: vertical
-}
-#veditor:focus{
-    background-position-y: 200px;
-    transition: all 0.2s ease-in-out 0s;
-}
+
+
+
+
+
+
 

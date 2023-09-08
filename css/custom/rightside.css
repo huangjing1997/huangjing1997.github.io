@@ -1,0 +1,14 @@
+/*========================== 右下角菜单 =========================*/
+/*右下角按钮*/
+#rightside > div > button, #rightside > div > a {
+  display: block;
+  margin-bottom: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: var(--xy-rightside);
+  /*color: #2d587a;*/
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
