@@ -7733,7 +7733,7 @@ div#danmuBtn button {
 	padding: 6px 16px 6px 6px;
 }
 
-.default-style a {
+/* .default-style a {
     background-color: rgba(0, 0, 0, 0.5);
     transition: .3s;
     color: #eee !important;
@@ -7742,15 +7742,15 @@ div#danmuBtn button {
     justify-content: center;
     padding: 6px 16px 6px 6px;
     text-decoration: none !important;
-}
+} */
 
 .default-style:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.default-style a:hover {
+/* .default-style a:hover {
     background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .default-style img {
     pointer-events: none;
@@ -7764,7 +7764,7 @@ div#danmuBtn button {
     line-height: 1;
     pointer-events: none;
     margin: 0 !important;
-    max-width: 300px;
+    max-width: 500px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -8026,6 +8026,65 @@ div#danmuBtn button {
 .author-content-item.skills:hover .skills-style-group .skills-list {
   opacity: 1;
 }
+.snackbar-container {
+	background: var(--xy-main) !important;
+	color: var(--xy-white) !important;
+	border-radius: 0 !important;
+	display: flex !important;
+	justify-content: center !important;
+	max-width: none !important;
+	min-width: 100% !important;
+	margin: 0 !important;
+	left: 0 !important;
+	height: 61px !important;
+	transform: none !important;
+	margin: 0 !important;
+	z-index: 99999;
+}
+
+.snackbar-container p {
+	font-weight: 700 !important;
+	text-align: center !important;
+	font-size: 1.1rem !important;
+}
+
+.snackbar-container .action {
+	color: var(--xy-white) !important;
+	padding: 4px 6px !important;
+	font-weight: 700;
+	border-radius: 8px;
+	transition: 0.3s;
+	border: var(--style-border) !important;
+}
+
+.snackbar-container .action:hover {
+	color: var(--xy-main) !important;
+	background: var(--xy-white);
+}
+
+.snackbar-container::after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: var(--xy-white);
+	opacity: 0.1;
+	content: "";
+	animation: snackbar-progress 2s linear forwards;
+	pointer-events: none;
+	will-change: transform;
+	transform-origin: left
+}
+@keyframes snackbar-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;

@@ -1,9 +1,9 @@
 function danmu() {
 	if (location.pathname != '/message/' || document.body.clientWidth < 768) return //判断是否是留言板页面
 	const Danmaku = new EasyDanmaku({
-		page: '/message/', // 即留言板地址
+		page: '/message/', // 即留言板页面
 		el: '#danmu', //弹幕挂载节点
-		line: 10, //弹幕行数
+		line: 5, //弹幕行数
 		speed: 20, //弹幕播放速度
 		hover: true,
 		loop: true, //开启循环播放
@@ -33,15 +33,15 @@ function danmu() {
 						i.avatar = setAvatar(i.attributes.mail);
 					}
 				}
-				ls.push({ avatar: i.avatar, content: i.attributes.nick + '：' + i.attributes.comment});
+				ls.push({avatar: i.avatar, content: i.attributes.nick + '：' + i.attributes.comment});				
 			});
 			Danmaku.batchSend(ls, true);
-			saveToLocal.set('danmu', ls, 0.02)
+			saveToLocal.set('danmu', ls, 0.02);
 		});
 	}
-
 	document.getElementById('danmuBtn').innerHTML =
-		`<button class="hideBtn" onclick="document.getElementById('danmu').classList.remove('hidedanmu')">显示弹幕</button> <button class="hideBtn" onclick="document.getElementById('danmu').classList.add('hidedanmu')">隐藏弹幕</button>`
+		`<button class="hideBtn" onclick="document.getElementById('danmu').classList.remove('hidedanmu')">显示弹幕</button> <button class="hideBtn" onclick="document.getElementById('danmu').classList.add('hidedanmu')">隐藏弹幕</button> `
+  
 }
 danmu()
 document.addEventListener("pjax:complete", danmu)
@@ -70,3 +70,4 @@ function setAvatar(e){
 	}
 	return avatar;
 }
+

@@ -57,7 +57,7 @@ div#danmuBtn button {
 	padding: 6px 16px 6px 6px;
 }
 
-.default-style a {
+/* .default-style a {
     background-color: rgba(0, 0, 0, 0.5);
     transition: .3s;
     color: #eee !important;
@@ -66,15 +66,15 @@ div#danmuBtn button {
     justify-content: center;
     padding: 6px 16px 6px 6px;
     text-decoration: none !important;
-}
+} */
 
 .default-style:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.default-style a:hover {
+/* .default-style a:hover {
     background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .default-style img {
     pointer-events: none;
@@ -88,7 +88,7 @@ div#danmuBtn button {
     line-height: 1;
     pointer-events: none;
     margin: 0 !important;
-    max-width: 300px;
+    max-width: 500px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

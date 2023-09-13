@@ -115,7 +115,7 @@ class EasyDanmaku {
         this.normalClass = i;
         let r = setInterval((() => {
                     location.pathname != this.pathname && clearInterval(r),
-                    this.originIndex > t.length - 1 ? (clearInterval(r), this.originIndex = 0, this.onComplete && this.onComplete(), this.loop && this.batchSend(this.originList, e, i)) : (e ? this.send(`${t[this.originIndex].url?'<a href="'+t[this.originIndex].url+'">':""}<img src=${t[this.originIndex].avatar}>\n                        <p>${t[this.originIndex].content}</p>${t[this.originIndex].url?"</a>":""}\n                    `, i || this.wrapperStyle) : this.send(t[this.originIndex], i || this.wrapperStyle), this.originIndex++)
+                    this.originIndex > t.length - 1 ? (clearInterval(r), this.originIndex = 0, this.onComplete && this.onComplete(), this.loop && this.batchSend(this.originList, e, i)) : (e ? this.send(`${t[this.originIndex].url?'<a href="'+t[this.originIndex].url+'">':""}<img src=${t[this.originIndex].avatar}>\n                        <p title="${t[this.originIndex].content}">${t[this.originIndex].content}</p>${t[this.originIndex].url?"</a>":""}\n                    `, i || this.wrapperStyle) : this.send(t[this.originIndex], i || this.wrapperStyle), this.originIndex++)
                 }), n / t.length * 1e3)
     }
     centeredSend(t, e, i = 3e3, n = null) {

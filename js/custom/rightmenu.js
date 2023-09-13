@@ -1,12 +1,12 @@
-
 function setMask(){//设置遮罩层
-    if(document.getElementsByClassName("rmMask")[0]!=undefined){
-        return document.getElementsByClassName("rmMask")[0];
+    if(document.getElementById("rmMask")!=undefined){
+        return document.getElementById("rmMask");
     }
     mask = document.createElement('div');
-    mask.className = "rmMask";
+    mask.id = "rmMask";
     mask.style.width = window.innerWidth + 'px';
     mask.style.height = window.innerHeight + 'px';
+	mask.style.display = "block";
     mask.style.background = '#fff';
     mask.style.opacity = '.0';
     mask.style.position = 'fixed';
@@ -55,6 +55,7 @@ rmf.showRightMenu = function(isTrue, x=0, y=0){
 
     if(isTrue){
         $rightMenu.show();
+		setMask().style.display = "block";
     }else{
         $rightMenu.hide();
     }
@@ -106,11 +107,12 @@ rmf.copyWordsLink = function () {
     txa.select();
     document.execCommand("Copy");
     document.body.removeChild(txa);
+	btf.snackbarShow('复制本文地址成功');
 }
 //复制选中文字
 rmf.copySelect = function(){
     document.execCommand('Copy',false,null);
-    //这里可以写点东西提示一下 已复制
+    btf.snackbarShow('复制成功');
 }
 //站内搜索
 rmf.searchinThisPage=()=>{
@@ -150,6 +152,31 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
 
     window.addEventListener('click',function(){rmf.showRightMenu(false);}); */
 	popupMenu();
+}
+
+//下载图片
+rmf.download = function(imgsrc, name) { //下载图片地址和图片名
+    btf.snackbarShow('正在下载中，请稍后',false,10000)
+    setTimeout(function(){
+        let image = new Image();
+        // 解决跨域 Canvas 污染问题
+        image.crossOrigin = "";
+        image.onload = function() {
+            let canvas = document.createElement("canvas");
+            canvas.width = image.width;
+            canvas.height = image.height;
+            let context = canvas.getContext("2d");
+            context.drawImage(image, 0, 0, image.width, image.height);
+            let url = canvas.toDataURL("image/png"); //得到图片的base64编码数据
+            let a = document.createElement("a"); // 生成一个a元素
+            let event = new MouseEvent("click"); // 创建一个单击事件
+            a.download = name || "img"; // 设置图片名称
+            a.href = url; // 将生成的URL设置为a.href属性
+            a.dispatchEvent(event); // 触发a的单击事件
+        };
+        image.src = imgsrc;
+        btf.snackbarShow('下载成功');
+    }, "10000");
 }
 
 function popupMenu() {
@@ -214,15 +241,12 @@ function popupMenu() {
                 txa.select();
                 document.execCommand("Copy");
                 document.body.removeChild(txa);
+				btf.snackbarShow('复制图片链接成功');
             }
-            rmf.downloadImg=function(){
-                var a = document.createElement('a');
+            rmf.downloadImg=function(){             
                 var url = el.src;
-                var filename = url.substring(url.lastIndexOf("/")+1,url.length);
-                a.href = url;
-                a.download = filename;
-                a.click();
-                window.URL.revokeObjectURL(url);
+                var filename = url.substring(url.lastIndexOf("/")+1,url.length);              
+                rmf.download(url,filename);
             }
         } else if (el.tagName == "TEXTAREA" || el.tagName == "INPUT") {
             $('#menu-paste').show();
@@ -255,17 +279,21 @@ function popupMenu() {
         window.onscroll=()=>{
             rmf.showRightMenu(false);
             window.onscroll=()=>{}
-            document.body.removeChild(mask);
+            //document.body.removeChild(mask);
+			mask.style.display = "none";
         }
         $(".rightMenu-item").click(()=>{
-            document.body.removeChild(mask);
+            //document.body.removeChild(mask);
+			mask.style.display = "none";
         })
         $(window).resize(()=>{
             rmf.showRightMenu(false);
-            document.body.removeChild(mask);
+            //document.body.removeChild(mask);
+			mask.style.display = "none";
         })
         mask.onclick=()=>{
-            document.body.removeChild(mask);
+            //document.body.removeChild(mask);
+			mask.style.display = "none";
         }
         rmf.showRightMenu(true, pageY, pageX);
         return false;
