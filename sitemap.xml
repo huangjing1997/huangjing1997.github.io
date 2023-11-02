@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xyjblog.top/tv/index.html</loc>
+    
+    <lastmod>2023-09-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/anime/index.html</loc>
+    
+    <lastmod>2023-09-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyjblog.top/movie/index.html</loc>
+    
+    <lastmod>2023-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xyjblog.top/wallpaper/beautifulScenery/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
@@ -83,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://xyjblog.top/collect/index.html</loc>
-    
-    <lastmod>2023-08-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xyjblog.top/archives/index.html</loc>
     
     <lastmod>2023-07-26</lastmod>
@@ -121,7 +139,7 @@
 
   <url>
     <loc>https://xyjblog.top/</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,7 +147,7 @@
   
   <url>
     <loc>https://xyjblog.top/tags/Hexo/</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -138,7 +156,7 @@
   
   <url>
     <loc>https://xyjblog.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-09-13</lastmod>
+    <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
