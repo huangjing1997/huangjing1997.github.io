@@ -1,0 +1,70 @@
+#rightMenu
+	.rightMenu-group.rightMenu-small
+		a.rightMenu-item(href="javascript:window.history.back();")
+			i.fas.fa-long-arrow-left
+		a.rightMenu-item(href="javascript:window.history.forward();")
+			i.fas.fa-long-arrow-right
+		a.rightMenu-item(href="javascript:window.location.reload();")
+			i.fas.fa-rotate-right
+		a.rightMenu-item(href="javascript:rmf.scrollToTop();")
+			i.fas.fa-long-arrow-up
+	.rightMenu-group.rightMenu-line.hide#menu-text
+		a.rightMenu-item(href="javascript:rmf.copySelect();")
+			i.fas.fa-copy
+			span='复制'
+		a.rightMenu-item(href="javascript:window.open(\"https://www.baidu.com/s?wd=\"+window.getSelection().toString());window.location.reload();")
+			i.fas.fa-globe
+			span='百度搜索'
+		a.rightMenu-item(href="javascript:rmf.searchinThisPage();")
+			i.fas.fa-search
+			span='站内搜索'
+	.rightMenu-group.rightMenu-line.hide#menu-paste
+		a.rightMenu-item(href='javascript:rmf.paste()')
+			i.fa.fa-copy
+			span='粘贴'
+	.rightMenu-group.rightMenu-line.hide#menu-to
+		a.rightMenu-item(href="javascript:rmf.openWithNewTab()")
+			i.fa.fa-window-restore
+			span='新窗口打开'
+		a.rightMenu-item#menu-too(href="javascript:rmf.open()")
+			i.fa.fa-link
+			span='转到链接'
+		a.rightMenu-item(href="javascript:rmf.copyLink()")
+			i.fa.fa-copy
+			span='复制链接'
+	.rightMenu-group.rightMenu-line.hide#menu-img
+		a.rightMenu-item(href="javascript:rmf.downloadImg()")
+			i.fa.fa-download
+			span='保存图片'
+		a.rightMenu-item(href="javascript:rmf.click()")
+			i.fa.fa-arrows-alt
+			span='查看图片'
+		a.rightMenu-item(href="javascript:rmf.openWithNewTab()")
+			i.fa.fa-window-restore
+			span='在新窗口打开'
+		a.rightMenu-item(href="javascript:rmf.copyLink()")
+			i.fa.fa-copy
+			span='复制图片链接'
+	.rightMenu-group.rightMenu-line
+		a.rightMenu-item(href="javascript:rmf.copyWordsLink()")
+			i.fas.fa-paperclip
+			span='复制地址'	
+		a.rightMenu-item(href="javascript:rmf.switchDarkMode();")
+			i.fas.fa-adjust
+			span='昼夜切换'
+		a.rightMenu-item(href="javascript:rmf.switchReadMode();")
+			i.fas.fa-book-open
+			span='阅读模式'
+		a.rightMenu-item(href="javascript:rmf.translate();")
+			i.fas.fa-retweet
+			span='繁简转换'
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			

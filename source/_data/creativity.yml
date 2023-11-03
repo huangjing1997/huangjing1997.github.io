@@ -1,0 +1,38 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Android
+      color: "orange"
+      icon: https://pic.imgdb.cn/item/64f1466d661c6c8e54384501.png
+    - name: Vue
+      color: "#b8f0ae"
+      icon: https://pic.imgdb.cn/item/64f14ab5661c6c8e54396464.png
+    - name: React
+      color: "#222"
+      icon: https://pic.imgdb.cn/item/64f14c77661c6c8e5439c0e3.png
+    - name: Docker
+      color: "#57b6e6"
+      icon: https://pic.imgdb.cn/item/64f14a92661c6c8e54395c3c.png
+    - name: Node
+      color: "#333"
+      icon: https://pic.imgdb.cn/item/64f14aa9661c6c8e543960ee.png
+    - name: Python
+      color: "#fff"
+      icon: https://pic.imgdb.cn/item/64f14ab5661c6c8e54396447.png
+    - name: Java
+      color: "#fff"
+      icon: https://pic.imgdb.cn/item/64f14aa9661c6c8e543960dd.jpg
+    - name: CSS3
+      color: "#2c51db"
+      icon: https://pic.imgdb.cn/item/64f14a92661c6c8e54395c34.png
+    - name: JS
+      color: "#f7cb4f"
+      icon: https://pic.imgdb.cn/item/64f14a92661c6c8e54395c55.png
+    - name: HTML
+      color: "#e9572b"
+      icon: https://pic.imgdb.cn/item/64f14a92661c6c8e54395c48.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://pic.imgdb.cn/item/64f14dee661c6c8e543a148a.png
+    - name: Linux
+      color: "#999900"
+      icon: https://pic.imgdb.cn/item/64f14916661c6c8e5438fc4c.png

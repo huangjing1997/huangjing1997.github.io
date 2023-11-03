@@ -1,0 +1,89 @@
+/*============================= 导航栏设置 ==================================*/
+#nav{
+	padding:0 15%;
+}
+#nav .site-name{
+	font-size: 28px;
+	font-weight: 700;
+}
+#nav .menus_items {
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* 子菜单横向显示 */
+#nav .menus_items .menus_item:hover .menus_item_child{
+    display: flex;
+}
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+    left: -98px;
+}
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+    left: -144px;
+}
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+    left: -98px;
+}
+
+/* 去掉原来的底部蓝条效果 */
+#nav *::after{
+    background-color: transparent!important;
+}
+/* #nav #menus a:hover {
+    background: var(--xy-menu);
+    transition: 0.3s;
+} */
+#nav .menus_items .menus_item a:hover,
+#nav #search-button a:hover,
+#nav .menus_items .menus_item .menus_item_child li:hover a {
+    color: white !important;
+	background: var(--xy-menu);
+	transition: 0.3s;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:hover > #nav .menus_items .menus_item{
+	color: white !important;
+	background: var(--xy-menu);
+	transition: 0.3s;
+}
+
+#nav .menus_items .menus_item .menus_item_child li {
+    border-radius: 5px;
+    transition: all 0.3s;
+    display: inline-block;
+    margin: 3px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li .site-page{
+	padding: 5px 10px;
+}
+
+
+#nav .menus_items .menus_item .site-page{
+	padding-bottom: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#nav .menus_items .menus_item .menus_item_child li::before{
+	display: inline-block;
+	content:'';
+	position: absolute;
+	border: 5px solid transparent;
+	left: 48.6%;
+	top: -10px;
+	border-bottom-color:#fff;
+}
+
+#menus #toggle-menu a{
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+#menus #search-button a{
+	padding: 5px 10px;
+	border-radius: 5px;
+}

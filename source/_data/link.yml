@@ -1,0 +1,59 @@
+- class_name: 关注
+  flink_style: telescopic
+  link_list:
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5
+      descr: 进一寸有进一寸的欢喜。
+      color: vip
+      tag: 技术
+	  
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: Butterfly 主题作者
+      color: vip
+      tag: 技术
+			
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+      descr: 分享设计与科技生活
+      color: vip
+      tag: 设计
+	  
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      color: vip
+      tag: 技术		  
+				   
+- class_name: 网站
+  flink_style: anzhiyu
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/ 
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的个人博客框架
+      color: 
+      tag: 
+
+	  
+  
+- class_name: 小伙伴
+  flink_style: anzhiyu
+  link_list:
+    - name: Ariasakaの小窝
+      link: https://yisous.xyz
+      avatar: https://bu.dusays.com/2023/06/30/649e9ec88cf47.png
+      descr: 人有悲欢离合 月有阴晴圆缺
+      color: 
+      tag: 
+	  
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+      color: 
+      tag: 

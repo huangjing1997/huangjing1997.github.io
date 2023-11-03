@@ -1,0 +1,47 @@
+@charset  "UTF-8";
+
+/* 颜色 */
+:root {
+  --xy-menu: var(--xy-theme);
+  --xy-white: #fff;
+  --xy-main: var(--xy-theme);
+  --xy-main-op: var(--xy-theme-op);
+  --xy-rightside: var(--xy-theme);
+  --xy-border-hover: var(--xy-theme);
+  --xy-rightmenu: var(--xy-theme);
+  --style-border: 1px solid var(--xy-card-border);
+  --style-border-always: 1px solid var(--xy-card-border);
+  --style-border-hover: 1px solid var(--xy-theme);
+  --xy-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --xy-shadow-theme: 0 8px 12px -3px var(--xy-theme-op);
+  --xy-shadow-main: 0 8px 12px -3px var(--xy-main-op);
+  --xy-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --xy-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+}
+
+[data-theme="light"] {
+  --xy-theme: #006ec3;
+  --xy-theme-op: #4259ef23;
+  --xy-border: #e0e0e0;
+  --xy-background: #f7f9fe;
+  --xy-card-bg: #fff;
+  --xy-card-border: #e0e0e0;
+  --xy-link: #44aaff;
+  --xy-fontcolor: #363636;
+  --xy-secondbg: #edf0f7;
+  --xy-green: #57bd6a;
+  
+}
+
+[data-theme="dark"] {
+  --xy-theme: #003344;
+  --xy-theme-op: #0084ff23;
+  --xy-border: #002233;
+  --xy-background: #18171d;
+  --xy-card-bg: #1d1b26;
+  --xy-card-border: #42444a;
+  --xy-link: #003344;
+  --xy-fontcolor: #f7f7fa;
+  --xy-secondbg: #30343f;
+  --xy-green: #57bd6a;
+}
