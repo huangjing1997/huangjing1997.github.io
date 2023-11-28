@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>小游戏制作工具</title>
+      <link href="/2023/11/28/%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/"/>
+      <url>/2023/11/28/%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h2><p>最近发现一个有意思的东西，一个网页版的开发工具，那就是<a href="https://gamemaker.weixin.qq.com/">微信小游戏制作工具</a>，可以用来制作一些简单的2D游戏，如飞机大战，俄罗斯方块，超级玛丽，魂斗罗等，不需要会编程语言，只需要会一些简单的逻辑就行，非常方便。</p><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ooo.0x0.ooo/2023/11/28/OrGBZS.png"></p><p>点击<mark class="hl-label orange">立即体验</mark> 按钮，微信登录后进入开发工具</p><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ooo.0x0.ooo/2023/11/28/OrGkLi.png" alt="OrGkLi.png"></p><p>新建作品后进入开发面板界面，通过右边的控件控制程序运行</p><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ooo.0x0.ooo/2023/11/28/OrGolK.png" alt="OrGolK.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小游戏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Android开发读取PDF文档</title>
       <link href="/2023/11/08/Android%E5%BC%80%E5%8F%91%E8%AF%BB%E5%8F%96PDF%E6%96%87%E6%A1%A3/"/>
       <url>/2023/11/08/Android%E5%BC%80%E5%8F%91%E8%AF%BB%E5%8F%96PDF%E6%96%87%E6%A1%A3/</url>
